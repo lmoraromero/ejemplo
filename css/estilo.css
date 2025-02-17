@@ -47,12 +47,11 @@ nav ul {
 
     display: flex;
     /* Hace que los elementos <li> se dispongan en línea */
+    gap: 20px
 }
 
-nav li:not(:last-child) {
-    margin-right: 20px;
-    /* Agrega un margen derecho a todos los elementos <li>, 
-       excepto el último, para separarlos */
+nav a{
+    text-decoration: none;
 }
 
 .contenido {
